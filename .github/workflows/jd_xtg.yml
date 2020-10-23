@@ -9,6 +9,8 @@ on:
     - cron: '0 16 * * *' #北京时间0点运行，action会有延迟
   watch:
     types: started
+  repository_dispatch:
+    types: jd_xtg
 
 jobs:
   build:
