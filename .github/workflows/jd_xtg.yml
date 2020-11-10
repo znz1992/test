@@ -29,7 +29,7 @@ jobs:
           npm install
       - name: '运行 【星推官脚本】'
         run: |
-          node jd_xtg.js
+          node jd_818.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
